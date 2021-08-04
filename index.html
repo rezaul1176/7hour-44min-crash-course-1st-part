@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>
+        People Entered
+    </h1>
+    <h2 id="counter-element">0</h2>
+    <!--Create an increment button with the INCREMENT -->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    </br>
+    <!--Create a save button with SAVE-->
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-element">Previous Element : </p>
+    <br>
+    <p id="welcome-element"></p><br>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <button id="first-number-btn">First Number </button>
+        <span> : </span><span id="number-element1"></span>
+        <span>     </span>
+        <button id="second-number-btn">Second Number </button>
+        <span> : </span><span id="number-element2"></span>
+        <br><br>
+        <button id="addition-btn" onclick="add()">Addition</button>
+        <button id="subtraction-btn" onclick="sub()">Subtraction</button>
+        <button id="multiplication-btn" onclick="mul()">Multiplication</button>
+        <button id="division-btn" onclick="div()">Division</button>
+        <br><br>
+        <button id="sum-btn">Calculated value </button>
+        <span> : </span>
+        <span id="sum-element"></span>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

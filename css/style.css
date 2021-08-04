@@ -1,0 +1,37 @@
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+}
+#increment-btn, #first-number-btn, #second-number-btn{
+    background-color: darkred;
+}
+#first-number-btn, #second-number-btn{
+    width: 140px;
+}
+#save-btn, #addition-btn, #subtraction-btn, #multiplication-btn, #division-btn {
+    background-color: darkgreen;
+}
+#sum-btn{
+    background-color: darkorange;
+}
+.calculator{
+    width: 812px;
+    border: 1px solid darkkhaki;
+}
+.calculator h1{
+    text-align: center;
+}
