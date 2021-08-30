@@ -26,13 +26,13 @@ welcomeEl.innerText= nameGreetings;
  
 
 
-let num1=15;
-let num2=7;
+let num1=prompt("Enter first number: ");
+let num2=prompt("Enter second number: ");
  
-let firstNumberBtn = document.getElementById("first-number-btn");
-firstNumberBtn += num1;
-let secondNumberBtn = document.getElementById("second-number-btn");
-secondNumberBtn += num2;
+// let firstNumberBtn = document.getElementById("first-number-btn");
+// firstNumberBtn += num1;
+// let secondNumberBtn = document.getElementById("second-number-btn");
+// secondNumberBtn += num2;
 
 let num1El=document.getElementById("number-element1");
 num1El.textContent = num1;
@@ -45,7 +45,7 @@ let sumButton = document.getElementById("sum-btn");
 let sumEl=document.getElementById("sum-element");
 
 function add() {
-    let result = num1+num2;
+    let result = parseFloat(num1)+parseFloat(num2);
     console.log(result);
     sumEl.textContent = " ";
     sumEl.textContent += result;
